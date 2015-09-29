@@ -1,40 +1,47 @@
 @import "settings";
 @import "foundation";
 
-// Or selectively include components
-// @import
-//   "foundation/components/accordion",
-//   "foundation/components/alert-boxes",
-//   "foundation/components/block-grid",
-//   "foundation/components/breadcrumbs",
-//   "foundation/components/button-groups",
-//   "foundation/components/buttons",
-//   "foundation/components/clearing",
-//   "foundation/components/dropdown",
-//   "foundation/components/dropdown-buttons",
-//   "foundation/components/flex-video",
-//   "foundation/components/forms",
-//   "foundation/components/grid",
-//   "foundation/components/inline-lists",
-//   "foundation/components/joyride",
-//   "foundation/components/keystrokes",
-//   "foundation/components/labels",
-//   "foundation/components/magellan",
-//   "foundation/components/orbit",
-//   "foundation/components/pagination",
-//   "foundation/components/panels",
-//   "foundation/components/pricing-tables",
-//   "foundation/components/progress-bars",
-//   "foundation/components/reveal",
-//   "foundation/components/side-nav",
-//   "foundation/components/split-buttons",
-//   "foundation/components/sub-nav",
-//   "foundation/components/switches",
-//   "foundation/components/tables",
-//   "foundation/components/tabs",
-//   "foundation/components/thumbs",
-//   "foundation/components/tooltips",
-//   "foundation/components/top-bar",
-//   "foundation/components/type",
-//   "foundation/components/offcanvas",
-//   "foundation/components/visibility";
+h1 {
+ font-family: 'Shadows Into Light', cursive;
+background:#0a8ab9;
+}
+
+.first-col{
+    font-family: "palatino", palatino, sans-serif;
+outline: 2px solid black;
+    min-height: 400px;
+}
+
+.second-col {
+    font-family: "palatino";
+    min-height: 400px;
+    outline: 2px solid black;
+}
+
+.wximages {
+       width:200px;
+    
+    
+}
+
+.menuitems {
+   position: fixed;
+     width:115px;
+    height: 52px;
+     top:50%;
+     left:50%;
+     margin:-50px 0 0 -80px;
+     background:#0a8ab9;
+}
+
+.center {
+    background-color: white;
+    font-family: sans-serif;
+   text-align: center; 
+    margin-top: 40px;
+}
+
+.texts {
+   margin-top: 40px;
+}
+
